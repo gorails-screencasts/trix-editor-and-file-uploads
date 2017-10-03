@@ -7,7 +7,7 @@
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container">
-    <%= link_to "Spark", root_path, class: "navbar-brand" %>
+    <%= link_to "Trix Example", root_path, class: "navbar-brand" %>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -15,6 +15,8 @@
 
     <div class="collapse navbar-collapse" id="navbarMain">
       <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item"><%= link_to "Posts", posts_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to "Photos", photos_path, class: "nav-link" %></li>
       </ul>
 
       <ul class="navbar-nav">
